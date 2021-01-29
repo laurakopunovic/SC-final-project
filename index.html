@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://kit.fontawesome.com/7b51b5c665.js" crossorigin="anonymous"></script>
+    <title>👩‍💻 Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app-wrapper">
+        <div class= "weather-app">
+          <form id="city-search-form" class="mb-3">
+            <div class="row">
+              <div class="col-6">
+                <input
+                  type="search"
+                  placeholder="Where in the world are you?"
+                  class="form-control"
+                  id="city-input"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-2">
+                <button
+                  type="submit"
+                  value="Search"
+                  class="btn btn-light"
+                  id="city-search">
+                 <i class="fas fa-search"></i>
+                </button>
+              </div>
+              <div class ="col-4">
+               <button
+                 id= "current-location-button"
+                 type= "current"
+                 class= "btn-btn light">
+                Current location
+                </button>
+              </div>
+            </div>
+          </form>
+        <div class="card">
+            <h1 id="city"></h1>
+          </br>
+            <ul>
+              <li>Last updated: <span id="date"></span></li>
+              <li id="description"></li>
+            </ul>
+          <div class="row">
+            <div class="col">
+              <div class="weather-temperature">
+                <p>
+                <img src="" alt="Clear" id="icon"/>
+                <br/>
+                  <strong id="temperature"></strong>
+                  <span class="units">
+                    <a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span>
+                </p>
+              </div>
+            </div>
+            <div class= "row">
+            <div class="col">
+              <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind Speed: <span id="wind"></span> km/h</li>
+              </ul>
+            </br>
+          </div>
+        </div>
+      </div>
+         <br />
+       </div>
+      </div>
+    </div>
+        <p class= "coded">
+          <a href=""
+             target="_blank">
+            Open-source code</a>
+          by Laura Kopunovič
+        </p>
+      </div>
+    </div>
+   <script src="src/app.js"></script>
+  </body>
+</html>
