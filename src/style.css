@@ -150,3 +150,8 @@ footer a {
   text-align: center;
   color: white !important;
 }
+
+#description {
+  text-transform:uppercase !important;
+  font-weight: 600;
+}
