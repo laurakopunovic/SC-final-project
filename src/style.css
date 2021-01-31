@@ -1,15 +1,12 @@
 body {
   font-family: arial, sans-serif;
-  font-weight: bold;
-  background-image: url("https://cdn.wallpapersafari.com/25/99/Wz9eRi.jpg");
 }
 
 h1 {
-  color: #d370D8;
-  font-size: 50px;
+  color: #c3ebef;
+  font-size: 45px;
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: bold;
+  font-weight: 100;
   line-height: 28px;
   margin-top: 35px;
 }
@@ -24,7 +21,7 @@ button {
   margin-top: 0 auto;
   color: grey !important;
   background: white !important;
-  border: solid white !important;
+  border: none;
   transition: ease-in-out 200ms;
   border-radius: 5px;
   padding: 7px;
@@ -46,7 +43,7 @@ li {
   margin: 0;
   padding: 0;
   text-align: center;
-  color: grey;
+  color: rgb(135, 135, 135);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -63,19 +60,14 @@ i {
 }
 
 input {
-  border: solid white !important;
-}
-
-footer a {
-  color:white !important;
+  border: 1px solid white !important;
 }
 
 .card {
   color: grey;
-  border: solid white;
+  border: 1px solid white;
   border-radius: 10px;
   font-size: 15px;
-  padding: 7px;
 }
 
 .weather-app-wrapper {
@@ -84,13 +76,17 @@ footer a {
 }
 
 .weather-app {
-  background-image: linear-gradient(to top, #823EA0 0%, #D370D8 100%);
+  background-image: linear-gradient(to top, #c3ebef 0%, #c3ebef 100%);
   margin: 30px auto;
   padding: 30px 25px;
   box-shadow: 1px 1px 1px;
   color: lightgrey;
-  border: 1px solid white;
+  border: 1px solid #c3ebef;
   border-radius: 10px;
+}
+
+.overview {
+  margin-bottom: 20px;
 }
 
 .weather-temperature img {
@@ -100,7 +96,7 @@ footer a {
 }
 
 .weather-temperature strong {
-  color:grey;
+  color: rgb(131, 131, 131);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -109,7 +105,7 @@ footer a {
 .weather-temperature .units {
   font-size: 16px;
   top: -34px;
-  color: grey !important;
+  color: grey;
 }
 
 .weather-forecast {
@@ -135,7 +131,7 @@ footer a {
 
 .weather-forecast-temperature {
   text-align: center;
-  color: grey;
+  color: rgb(135, 135, 135);
   font-size: 13px;
   font-weight: 400;
   height: auto;
@@ -143,9 +139,4 @@ footer a {
   white-space: nowrap;
 }
 
-.coded {
-  font-size: 14px;
-  font-weight: 500;
-  text-align: center;
-  color: white !important;
-}
+
