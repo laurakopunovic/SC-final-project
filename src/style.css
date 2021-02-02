@@ -74,7 +74,7 @@ footer a {
 .card {
   color: grey;
   border: solid white;
-  border-radius: 10px;
+  border-radius: 6px;
   font-size: 15px;
   padding: 7px;
 }
@@ -120,7 +120,7 @@ footer a {
 
 .weather-forecast h3 {
   color: rgb(112, 110, 110);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   text-align: center;
   height: 15px;
@@ -138,8 +138,8 @@ footer a {
 .weather-forecast-temperature {
   text-align: center;
   color: grey;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: 300;
   height: auto;
   line-height: 15px;
   white-space: nowrap;
