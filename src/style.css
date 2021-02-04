@@ -61,7 +61,6 @@ li:first-letter {
 i {
   font-size: 15px;
   text-align: center;
-  padding: 0px;
 }
 
 input {
@@ -161,3 +160,5 @@ footer a {
 #city-search {
   margin-right: auto;
 }
+
+
